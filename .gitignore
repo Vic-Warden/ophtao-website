@@ -1,3 +1,17 @@
+# Ignore configuration files
 chatbox/js/config.js
 
+# Ignore the knowledge base directory
 chatbox/Knowledge_Base/
+
+# Python / DrBERT API
+drbert_api/__pycache__/
+drbert_api/venv/
+drbert_api/.env
+*.pyc
+
+# Python / BioMistral API
+biomistral_api/__pycache__/
+biomistral_api/venv/
+biomistral_api/.env
+*.pyc
