@@ -1,0 +1,16 @@
+# robots.txt — ophtao.fr
+
+User-agent: *
+Allow: /
+
+# Restricted paths
+Disallow: /chatbox/js/
+Disallow: /ai-config/
+Disallow: /config/
+Disallow: /.env
+Disallow: /assets/vendor/
+Disallow: /logs/
+Disallow: /tmp/
+
+# Sitemap
+Sitemap: https://www.ophtao.fr/sitemap.xml
